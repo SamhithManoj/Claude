@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Parse an AWS S3 bucket name from a full S3 URI (e.g., 's3://my-bucket-name/path/to/file.txt') and extract just the bucket name",
+    "format": "regex",
+    "solution_criteria": "The regex should correctly extract bucket names from S3 URIs, handle various valid bucket naming conventions (lowercase, hyphens, numbers), and work with both 's3://' and 'https://' S3 URLs"
+  },
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that defines environment variables for database credentials, API endpoints, and logging levels",
+    "format": "json",
+    "solution_criteria": "The JSON should include a valid structure with environment variables section, contain realistic AWS service endpoints (RDS, DynamoDB), and follow AWS Lambda configuration best practices"
+  },
+  {
+    "task": "Write a Python function that takes an AWS CloudWatch log timestamp in ISO 8601 format and converts it to a Unix epoch timestamp",
+    "format": "python",
+    "solution_criteria": "The function should correctly parse ISO 8601 formatted timestamps (e.g., '2023-11-15T10:30:45Z'), handle timezone information, and return the correct Unix epoch integer value"
+  }
+]
