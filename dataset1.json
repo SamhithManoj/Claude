@@ -1,0 +1,48 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon race preparation with carbohydrate loading for peak endurance performance",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three meals and snacks for one full day",
+      "Total daily calories and carbohydrates are appropriate for high-endurance marathon training",
+      "Includes practical, specific food items with portions that support carbohydrate loading strategy"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring maximum caloric intake and carbohydrate loading for peak performance"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Optimize protein distribution across two daily training sessions (morning strength, evening power) for muscle recovery and performance",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 24 hours with 4-5 distinct meals/snacks",
+      "Total daily protein is adequate for strength athlete (minimum 1.6-2.0g per kg bodyweight)",
+      "Protein is distributed across meals with emphasis around training windows (pre/post workout)",
+      "Plan is concise and actionable without excessive detail or recipes"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein distribution and recovery nutrition across multiple training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "72 kg",
+      "goal": "Optimize energy and recovery for early morning swim training and afternoon competition",
+      "restrictions": "Vegetarian (no meat, poultry, or fish)"
+    },
+    "solution_criteria": [
+      "Meal plan covers all three time periods: pre-dawn training, mid-day, and pre-competition afternoon",
+      "All meals and snacks are vegetarian-compliant with no animal flesh products",
+      "Includes adequate carbohydrates and protein to support swimmer's energy needs and recovery"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (swimmer) with early morning training, afternoon competition, and dietary restrictions (vegetarian/vegan)"
+  }
+]
